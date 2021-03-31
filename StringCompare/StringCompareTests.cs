@@ -3,6 +3,7 @@ using Xunit;
 
 namespace StringCompare
 {
+
     public class StringCompareTests
     {
         [Fact]
@@ -26,5 +27,16 @@ namespace StringCompare
 
             result.Should().BeFalse();
         }
+
+        //[Fact]
+        //public void AreEqual_WithStringsDifferingByWhitespace_ReturnsTrue()
+        //{
+        //    string first = "the string";
+        //    string second = "the  string";
+
+        //    var result = StringCompare.AreEqual(first, second);
+
+        //    result.Should().BeTrue();
+        //}
     }
 }
